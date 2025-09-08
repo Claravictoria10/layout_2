@@ -1,0 +1,22 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.grid_1-1 {
+  display: grid;
+  gap: 10px;
+}
+@media (width>=800px) {
+  .grid_1-1 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
